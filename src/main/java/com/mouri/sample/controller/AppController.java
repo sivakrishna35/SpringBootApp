@@ -8,7 +8,7 @@ public class AppController {
 	
 	@GetMapping("/getMsg")
 	public String getMsg() {
-		return "This is getMsg in AppController....";
+		return "This is getMsg in AppController. Modification Msg";
 	}
 
 }
